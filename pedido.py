@@ -1,6 +1,6 @@
 def calcular_total(subtotal):
-    costo_delivery = 5.00
-    total = subtotal + costo_delivery
+    tarifa_servicio = subtotal * 0.08
+    total = subtotal + tarifa_servicio
     return total
 
 subtotal = 30.00
